@@ -1,0 +1,281 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url("../images/bg.jpg");
+}
+
+/* header */
+.header {
+  margin: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  height: 15px;
+  width: 60px;
+}
+
+.header__button {
+  padding: 16px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.header__button:hover {
+  background-color: rgb(58, 62, 57);
+  border-radius: 3px;
+}
+
+/* main */
+.main {
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+
+.main__div {
+  height: 400px;
+  width: 600px;
+} 
+
+.main__heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2cm;
+}
+
+.main__domain {
+  text-align: center;
+  letter-spacing: 0px;
+  font-size: 26px;
+  margin-top: 16px;
+  font-weight: 510;
+  line-height: 1.25;
+  text-transform: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main__paragraph {
+  text-align: center;
+  font-size: 23px;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1.36;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.main__button {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(28, 231, 131);
+  width: 600px;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.main__freeTrial {
+  text-align: center;
+  margin-top: 10px;
+  line-height: 1.45;
+  text-transform: none;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(236, 234, 234, 0.6);
+  font-size: 12px;
+  letter-spacing: 0px;
+}
+/* section */
+.section {
+  height: 150px;
+  display: flex;
+  background-color: black;
+  color: white;
+  background: linear-gradient(179.81deg, rgba(4, 4, 4, 0.7) .17%, rgba(4, 4, 4, 0.45) 85.02%, rgba(4, 4, 4, 0.3) 112.52%) !important;
+  row-gap: 20px;
+}
+
+.section__div {
+  margin-left: 30px;
+  margin-top: 30px;
+  padding: auto;
+  background: transparent;
+}
+
+.section__details-1{
+  margin-left: 30px;
+  margin-top: 30px;
+  text-align: left;
+}
+.section__hulu{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  color: #1ce783;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1;
+}
+.section__GetHulu{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.6px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.section__image {
+  
+  width: 300px;
+  height: 55px;
+}
+
+.section__button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  width: 210px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  
+}
+
+.section__buttonGet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 45px;
+  
+ 
+}
+.section__details{
+  color: grey;
+}
+.section__termsApply{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: -26px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 10px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-transform: none;
+  /* margin-left: 80px; */
+
+}
+
+/* section flex images */
+.huluMovies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
+  background-color: white;
+}
+
+.huluMovies__image {
+  width: 500px;
+  height: 400px;
+  padding: 2px;
+  margin-left: 15px;
+  border-radius: 20px;
+}
+
+.huluMovies__image:hover {
+  border: 5px solid gray ;
+}
+
+.section__tv{
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  height: 730px;
+  color: white;
+}
+
+.section__show {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 80px;
+  align-items: center;
+  
+}
+.section__h3{
+  font-size: 50px;
+}
+
+.section__showImages {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.section__showImage {
+  padding: 2px;
+  margin-left: 15px;
+}
+
+
+/* article */
+.article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+}
+
+.article__image {
+  text-align: center;
+  margin: 51px;
+  width: 230px;
+  
+}
+/* footer */
+.footer {
+  margin: auto;
+  align-items: center;
+  background-color: rgb(238, 232, 232);
+  height: 200px;
+  display: block;
+  justify-content: center;
+}
+
+.footer__links {
+  margin-left: 31px;
+}
+
+.footer__social {
+  margin: 21px;
+}
+.footer__li{
+  display: inline;
+  padding: 12px;
+  margin-top: 10px;
+}
+.med{
+  color: gray;
+}
+.footer__ul{
+  padding: 20px;
+}
